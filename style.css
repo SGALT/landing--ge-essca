@@ -1,0 +1,78 @@
+/* Write some CSS below */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-size: 18px;
+  font-family: 'Chivo', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-blue {
+  background-color: #2C5AC7;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 7px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 200px;
+}
+
+.footer {
+  background-color: #404042;
+  text-align: center;
+  padding: 24px;
+}
+
+.footer p {
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
